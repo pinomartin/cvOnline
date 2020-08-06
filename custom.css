@@ -1,9 +1,39 @@
 body{
     background-color: #eeeeee;
-    
 }
 
+.cv-sheet{
+    -webkit-box-shadow: 9px 7px 14px 2px rgba(204,204,204,1);
+-moz-box-shadow: 9px 7px 14px 2px rgba(204,204,204,1);
+box-shadow: 9px 7px 14px 2px rgba(204,204,204,1);
+}
+
+.side-bar::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+  }
+  
+  .side-bar ::selection {
+    color: #ffffff;
+    background: #b9b9b9;
+  }
 
 .lista-contacto{
     list-style: none;
+}
+
+footer  {
+    padding-top: 1rem!important;
+    padding-bottom: 0.5rem;
+}
+
+footer a {
+    text-decoration: none!important;
+    font-family: monospace;
+    padding: 1rem 2rem;
+    background-color: #8b8b8b;
+    color: aquamarine;
+    border-radius: 50px 50px 0px 0px;
+-moz-border-radius: 50px 50px 0px 0px;
+-webkit-border-radius: 50px 50px 0px 0px;
 }
